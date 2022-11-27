@@ -295,12 +295,11 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-.portfolio .box-container{
+.box-container1{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 0;
 }
 
 .portfolio .box-container .box{
